@@ -6,6 +6,11 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {  path : '', component:HomeComponent },
+  {
+    path : 'apartments',
+    loadChildren: () => import('../app/apartments/apartments.module').then(m => m.ApartmentsModule)
+  },
+  
   {  path : 'about', component: AboutComponent },
   {  path : 'contact', component: ContactComponent }
 
