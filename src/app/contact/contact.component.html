@@ -1,5 +1,20 @@
-<header></header>
-
+<section class="sub-header">
+    <nav>
+        <a [routerLink]="['/']"><img src="../../assets/images/prelogo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fas fa-window-close" onclick="hidemenu()"></i>
+            <ul>
+                <li><a [routerLink]="['/apartments']">Apartment</a></li>
+                <!-- <li><a href="villa.html">VILLAS</a></li>
+                <li><a href="plot.html">PLOTS</a></li> -->
+                <li><a [routerLink]="['/about']">About</a></li>
+                <li><a [routerLink]="['/contact']">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+</section>
 
 <section class="contact-us">
     <div class="row">

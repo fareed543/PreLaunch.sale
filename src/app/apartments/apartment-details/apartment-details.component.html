@@ -1,9 +1,25 @@
-<header></header>
+<section class="sub-header">
+    <nav>
+        <a [routerLink]="['/']"><img src="../../assets/images/prelogo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fas fa-window-close" onclick="hidemenu()"></i>
+            <ul>
+                <li><a [routerLink]="['/apartments']">Apartment</a></li>
+                <!-- <li><a href="villa.html">VILLAS</a></li>
+                <li><a href="plot.html">PLOTS</a></li> -->
+                <li><a [routerLink]="['/about']">About</a></li>
+                <li><a [routerLink]="['/contact']">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>Apartment Details</h1>
+</section>
 
 <section class="detail-img">
 
-    <a href="../src/assets/images/detail2.jpg" target="_blank"><img src="../src/assets/images/detail2.jpg"></a>
-    <a href="../src/assets/images/detai1(2).jpg" target="_blank"><img src="../src/assets/images/detai1(2).jpg"></a>
+    <a href="../../assets/images/detail2.jpg" target="_blank"><img src="../../assets/images/detail2.jpg"></a>
+    <a href="../../assets/images/detai1(2).jpg" target="_blank"><img src="../../assets/images/detai1(2).jpg"></a>
     <!-- <a href="images/new-img-3-1500x842.jpg" target="_blank"><img src="images/new-img-3-1500x842.jpg"></a> -->
     <!-- <a href="images/model-flat-6-1182x663.png" target="_blank"><img src="images/model-flat-6-1182x663.png"></a>  -->
 </section>
@@ -25,7 +41,7 @@
             <li><i class="far fa-eye cls-eye"></i> 101</li>
         </ul>
     </div>
-    <div class="list">
+    <div class="list" id="list-detail">
         <ul>
             <li class="sa-col"><i class="fas fa-share cls-share"></i> SHARE</li>
             <li class="sa-col"><i class="far fa-heart cls-heart"></i> WISHLIST</li>
@@ -209,6 +225,7 @@
         </div>
     </div>
 
+
     <script>
         /* When the user clicks on the button, 
         toggle between hiding and showing the dropdown content */
@@ -378,7 +395,7 @@
     </script>
     <hr class="divider">
 </section>
-<section class="Amenities">
+<section class="other-fac">
     <h4 id="h4">Apartment Other Facilities</h4>
     <div class="item">
         <div class="item-colums">
