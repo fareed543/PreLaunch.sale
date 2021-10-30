@@ -1,0 +1,17 @@
+<section class="sub-header">
+    <nav>
+        <a [routerLink]="['/']"><img src="images/prelogo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fas fa-window-close" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="appartment.html">APPARTMENTS</a></li>
+                <li><a href="villa.html">VILLAS</a></li>
+                <li><a href="plot.html">PLOTS</a></li>
+                <li><a [routerLink]="['/about']">ABOUT</a></li>
+                <li><a [routerLink]="['/contact']">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
