@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-apartments-list',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ApartmentsListComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route :Router) { }
 
   ngOnInit(): void {
+  }
+
+  openDetails(link : string){
+    this.route.navigateByUrl(link);
   }
 
 }
