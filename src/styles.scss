@@ -57,22 +57,25 @@ nav{
     top:0;
 
     left: 0;
-    // height: 20px;
+    height: 37px;
     
     
 }
 nav img{
     width:200px;
+    margin-left: 45px;
     
 }
 .nav-links{
     flex:1;
     text-align: right;
+    margin-right: 75px;
 }
 .nav-links ul li{
     list-style-type: none;
     display: inline-block;
-    padding:8px 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     position: relative;
 }
 .nav-links ul li a{
