@@ -360,17 +360,17 @@ h3{
 }
 
 
-.footer{
-    width: 100%;
-    text-align: center;
-    padding: 10px 5px;
+// .footer{
+//     width: 100%;
+//     text-align: center;
+//     padding: 10px 5px;
 
-}
-.footer h4 {
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 600;
-}
+// }
+// .footer h4 {
+//     margin-bottom: 25px;
+//     margin-top: 20px;
+//     font-weight: 600;
+// }
 
 .sub-header {
     height: 25vh;
@@ -917,4 +917,211 @@ h3{
 }
 .pre-row p {
     line-height: 10px;
+}
+
+.ulisting_elements-fe1{
+    width:80%;
+    display: inline-flex;
+
+}
+// .fea-sep{
+//     margin-left: 15px;
+// }
+// .fea-sep1{
+//     margin-left: 150px;
+// }
+
+// footer//
+
+
+.footer-sec2{
+    
+    float: right;
+    margin-top: 15px;
+    width:68%;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+
+
+.elementor-heading-title  {
+    color: white;
+    margin-left:65px;
+    margin-top: 40px;
+}
+.luca-exp li{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #c2c9de;
+
+
+}
+.luca-fea li{
+    text-decoration: none;
+    color: #c2c9de;
+    margin-left: 40px;
+}
+.luca-icon li a{
+    text-decoration: none;
+    color: #c2c9de;
+    // margin-left: 40px;
+}
+.luca-icon li{
+    color: #c2c9de;
+    margin-left: 40px;
+}
+.elementor-icon-list-text{
+    margin-top: 10px;
+}
+
+
+#wp-footer {
+    background:#3a435e;
+  
+    font-size: 16px;
+    // position: relative;
+    width: 100%;
+    height: 430px;
+    font-family: 'roboto', 'sans-serif';
+    // background-image: url('../../prelaunch/src/assets/images/istockphoto-1256263980-170667a.jpg');
+}
+.elementor-icon-list-text{
+    margin-bottom: 10px;
+}
+.footer-sec1{
+    float:left;
+    width: 32%;
+    // margin-top: 15px;
+    margin-top: 50px;
+    
+}
+
+#img1{
+    width:200px;
+    padding: 10px;
+    margin-left: 93px;
+}
+.elementor-icon-box-description p a{
+    margin-left: 40px;
+}
+.elementor-widget-container p {
+    margin-left: 100px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #c2c9de;
+}
+.elementor-icon-box-content{
+    margin-left: 102px;
+    background:#282f44;
+    width: 300px;
+    height:100px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    
+}
+.elementor-icon-box-content h4{
+    margin-left: 60px;
+    padding-top: 10px;
+
+    
+    font-size: 18px;
+    color:#c2c9de;
+}
+.elementor-icon-box-description a{
+    text-decoration: none;
+    color: #c2c9de;
+    margin-left: 50px;
+}
+
+.partner{
+    
+    width: 100%;
+    height:200px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cpr{
+    width: 100%;
+    font-size: 16px;
+    // font-weight: 400;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 500px;
+}
+.last-sec{
+    display: inline-block;
+}
+.social-lin{
+    // bottom:0;
+    // right: 0;
+    width:100px;
+    color:blue;
+}
+@media(max-width:900px){
+    .partner{
+        width:890px;
+        display: flex;
+        margin-left: 20px;    
+    }
+    #wp-footer{
+        width: 899px;
+        height: 470px;
+        margin-bottom: 15px;
+    }
+    .elementor-widget-container p{
+        line-height: 20px;
+        margin-left: 20px;
+        width:300px;
+    }
+    .elementor-icon-box-content{
+        margin-left: 30px;
+        background:#282f44;
+        width: 300px;
+        height:100px;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+    } 
+    #img1{
+        width:100px;
+        padding: 10px;
+        margin-left: 30px;
+    
+    }
+   
+    #cpr{
+        text-align: center;
+        width:800px;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 50px;
+    }
+    
+.elementor-heading-title  {
+    color: white;
+    margin-left:65px;
+    margin-top: 20px;
+}
+.elementor-icon-box-description a{
+    text-decoration: none;
+    color: #c2c9de;
+    margin-left: 20px;
+}
+.elementor-icon-box-content h4{
+    margin-left: 30px;
+    padding-top: 10px;
+
+    
+    font-size: 18px;
+    color:#c2c9de;
+}
 }
