@@ -8,7 +8,7 @@
 .header{
     height: 100vh;
     width: 100%;
-    margin-top: 57px;
+    margin-top: 50px;
     // images/john-fornander-Id7u0EkTjBE-unsplash.jpg
     background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url('../src/assets/images/john-fornander-Id7u0EkTjBE-unsplash.jpg'); 
     background-position: center;
@@ -48,7 +48,7 @@
 }
 nav{
     display: flex;
-    padding:10px;
+    padding:15px;
     justify-content: space-between;
     align-items: center;
     background:linear-gradient(rgba(20, 19, 19, ),rgba(14, 13, 13, 1));
@@ -69,14 +69,14 @@ nav img{
 .nav-links{
     flex:1;
     text-align: right;
-    margin-right: 75px;
+    margin-right: 50px;
 }
 .nav-links ul li{
     list-style-type: none;
     display: inline-block;
     padding-top: 8px;
     padding-bottom: 8px;
-    position: relative;
+    // position: relative;
 }
 .nav-links ul li a{
     text-decoration: none;
@@ -167,6 +167,9 @@ nav .fas{
     nav img {
         width:200px;
     }
+    nav{
+        position: fixed;
+    }
 }
 
 .course{
@@ -187,7 +190,7 @@ p{
     padding: 10px;
 }
 .row{
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
     justify-content: space-between;
 
@@ -264,15 +267,15 @@ h3{
 }
 
 .facilities{
-    width:80%;
-    margin: auto;
+    width:95%;
+    margin:20px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
     
 }
 .facilities-col{
     
-    flex-basis: 31%;
+    flex-basis: 32%;
     margin-bottom: 5%;
     background:white;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
@@ -347,6 +350,7 @@ h3{
     border-radius: 10px;
     text-align: center;
     padding: 100px 0;
+
 }
 .cta h1 {
     color: white;
@@ -374,17 +378,20 @@ h3{
 
 .sub-header {
     height: 25vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('../src/assets/images/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg');
+    width:100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('../src/assets/images/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg');
     background-position: center;
     background-size: cover;
     text-align: center;
     color: white;
+    padding:15px;
+    margin-top: 67.40px;
+    left: 0;
 
 
 }
 .sub-header h1 {
-    margin-top: 57.40px;
+    margin-top: 50.40px;
         padding-top: 50px;
 }
 
@@ -555,15 +562,13 @@ h3{
 .detail-header{
     width:100%;
     height:50px;
-    position: fixed;
+    // position: fixed;
 }
+
 .detail-img {
     // margin:auto;
     display: inline-block;
     width:80%;
-    /* background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('../src/assets/images/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg');
-    background-size: cover;
-    // background-position: center; */
     height:60vh;
    
 }
@@ -571,9 +576,9 @@ h3{
 .detail-img img{
     width:300px;
     height:300px;
-    margin-top:40px;
+    margin-top:20px;
     margin-right:10px;
-    margin-left:40px;
+    margin-left:70px;
     border:5px solid #fff;
     border-radius: 5px;
     
@@ -688,11 +693,11 @@ h3{
     justify-content:space-between ;
     /* flex-direction: row; */
 
-    margin:15px;
+    margin:10px;
     // float: left;
     width: 25%;
     padding: 5px 0;
-    margin-right:30px;
+    margin-right:15px;
     /* min-width:1200px;
      */
 }
@@ -821,7 +826,7 @@ h3{
      color:rgb(75, 75, 163);
  }
 .ul-list{
-    width:100%;
+    width:80%;
     margin-top:3%;
     display:flex;
     justify-content: space-between;
@@ -924,12 +929,12 @@ h3{
     display: inline-flex;
 
 }
-// .fea-sep{
-//     margin-left: 15px;
-// }
-// .fea-sep1{
-//     margin-left: 150px;
-// }
+.fea-sep{
+    margin-left: 15px;
+}
+.fea-sep1{
+    margin-left: 150px;
+}
 
 // footer//
 
@@ -1038,7 +1043,7 @@ h3{
 
 .partner{
     
-    width: 100%;
+    width: 95%;
     height:200px;
     margin-bottom: 10px;
     margin-top: 25px;
@@ -1064,14 +1069,14 @@ h3{
     width:100px;
     color:blue;
 }
-@media(max-width:900px){
+@media(max-width:850px){
     .partner{
-        width:890px;
-        display: flex;
-        margin-left: 20px;    
+        width:800px;
+        display:flex;
+        // margin-left: 20px;    
     }
     #wp-footer{
-        width: 899px;
+        width: 820px;
         height: 470px;
         margin-bottom: 15px;
     }
@@ -1081,10 +1086,10 @@ h3{
         width:300px;
     }
     .elementor-icon-box-content{
-        margin-left: 30px;
+        margin-left: 20px;
         background:#282f44;
-        width: 300px;
-        height:100px;
+        width: 200px;
+        height:80px;
         margin-bottom: 5px;
         box-sizing: border-box;
     } 
@@ -1108,20 +1113,21 @@ h3{
     
 .elementor-heading-title  {
     color: white;
-    margin-left:65px;
+    margin-left:60px;
     margin-top: 20px;
 }
 .elementor-icon-box-description a{
     text-decoration: none;
     color: #c2c9de;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 .elementor-icon-box-content h4{
-    margin-left: 30px;
+    margin-left: 20px;
     padding-top: 10px;
 
     
     font-size: 18px;
     color:#c2c9de;
 }
+
 }
