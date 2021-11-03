@@ -3,7 +3,7 @@
         <nav>
             <a [routerLink]="['/']"><img src="../../assets/images/prelogo.png"></a>
             <div class="nav-links" id="navlinks">
-                <i class="fas fa-window-close" onclick="hidemenu()"></i>
+                <!-- <i class="fas fa-window-close" onclick="hidemenu()"></i> -->
                 <ul>
                     <li><a [routerLink]="['/apartments']">Apartments</a></li>
                     <!-- <li><a href="villa.html">VILLAS</a></li>
@@ -12,10 +12,14 @@
                     <li><a [routerLink]="['/contact']">Contact</a></li>
                 </ul>
             </div>
-            <i class="fas fa-bars" onclick="showmenu()"></i>
+            <!-- <i class="fas fa-bars" onclick="showmenu()"></i> -->
         </nav>
         <h1>Apartments</h1>
     </section>
+    <section class="facilities">
+    <h1>Pre Launch Projects in Hyderabad</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis voluptatibus tempore repudiandae.</p>
+</section>
     <section>
         <div class="listing-cls">
             <div class="listing">
@@ -31,16 +35,83 @@
                 </div>
                      <div class="third-d">
                          <p id="view-1">More Information</p>
-                         <button class="view-de">View Details</button>
+                         
+                         <button class="view-de" (click)="openDetails('/apartments/lukas-county-hyderabad-telangana')">View Details</button>
                         </div>
             </div>
-           <div class="lis-ban"></div>
+           <div class="lis-ban">
+               
+                <p>IT/Financial Hubs in close vicinity</p>
+                  <p> Pollution-free Environment</p>
+                  <p> Lifestyle Amenities</p>
+               
+           </div>
+        </div>
+    </section>
+    <section>
+        <div class="listing-cls">
+            <div class="listing">
+              <div><img src="../../assets/images/view 1.jpg"></div>
+                <div class="listings-det1">
+                     <h4>Mayfair Sunrise<br>Appartments</h4>
+                     <p>Tellapur,Hyderabad</p>
+                     <p>Price:1.31 Cr-2 cr</p>
+                 </div> 
+                <div class="listing2">
+                    <p>Launch Shortly</p>
+                     <p>bookings open soon</p>
+                </div>
+                     <div class="third-d">
+                         <p id="view-1">More Information</p>
+                         
+                         <button class="view-de" (click)="openDetails('/apartments/myfair-sunrise-villas')">View Details</button>
+                        </div>
+            </div>
+           <div class="lis-ban">
+               
+                <p>IT/Financial Hubs in close vicinity</p>
+                  <p> Pollution-free Environment</p>
+                  <p> Lifestyle Amenities</p>
+               
+           </div>
         </div>
     </section>
 <section class="facilities">
-    <h1>Pre Launch Projects in Hyderabad</h1>
+    <h1>Pre Launch Projects in Vishakapatnam</h1>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis voluptatibus tempore repudiandae.</p>
-    <div class="row">
+</section>
+<section>
+    <div class="listing-cls">
+        <div class="listing">
+          <div><img src="../../assets/images/view 1.jpg"></div>
+            <div class="listings-det1">
+                 <h4>Mayfair Sunrise<br>Appartments</h4>
+                 <p>Tellapur,Hyderabad</p>
+                 <p>Price:1.31 Cr-2 cr</p>
+             </div> 
+            <div class="listing2">
+                <p>Launch Shortly</p>
+                 <p>bookings open soon</p>
+            </div>
+                 <div class="third-d">
+                     <p id="view-1">More Information</p>
+                     
+                     <button class="view-de" (click)="openDetails('/apartments/myfair-sunrise-villas')">View Details</button>
+                    </div>
+        </div>
+       <div class="lis-ban">
+           
+            <p>IT/Financial Hubs in close vicinity</p>
+              <p> Pollution-free Environment</p>
+              <p> Lifestyle Amenities</p>
+           
+       </div>
+    </div>
+</section>
+
+
+
+    <!-- <div class="row">
         <div class="facilities-col">
             <img  src="../../assets/images/view 1.jpg">
                 <h3 (click)="openDetails('/apartments/lukas-county-hyderabad-telangana')">Lukas County </h3>            
@@ -54,8 +125,8 @@
             <h3 (click)="openDetails('/apartments/myfair-sunrise-villas')">Mayfair Sunrise<br>Appartments</h3>
             
 
-            <!-- <p>114 holcroft,Rochester,NY</p> -->
-        </div>
+             <p>114 holcroft,Rochester,NY</p> -->
+        <!-- </div>
         <div class="facilities-col">
             <img src="../../assets/images/VIEW.jpg">            
                 <h3 (click)="openDetails('/apartments/suprime-hyderabad')">Suprime  <br>Appartments</h3>
@@ -65,16 +136,16 @@
 
 </section>
 <section class="facilities">
-    <!----<h1>Our facilities</h1>
+    ---<h1>Our facilities</h1>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis voluptatibus tempore repudiandae.</p>-->
-    <div class="row">
+    <!-- <div class="row">
         <div class="facilities-col">
             <img src="../../assets/images/view 1.jpg">
             <h3>Greenmark Mayfair <br>Appartments</h3>
             <p>Tellapur,Hyderabad.</p>
-        </div>
+        </div>  -->
 
-        <div class="facilities-col">
+        <!-- <div class="facilities-col">
             <img src="../../assets/images/listing-6-1-600x450.jpg">
             <h3>Interior<br> Appartments</h3>
             <p>114 holcroft,Rochester,NY</p>
@@ -86,11 +157,11 @@
         </div>
     </div>
 
-</section>
-<section class="facilities">
+</section> -->
+<!-- <section class="facilities"> -->
     <!---- <h1>Our facilities</h1>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis voluptatibus tempore repudiandae.</p>-->
-    <div class="row">
+    <!-- <div class="row">
         <div class="facilities-col">
             <img src="../../assets/images/view 1.jpg">
             <h3>Greenmark Mayfair <br>Appartments</h3>
@@ -109,4 +180,4 @@
         </div>
     </div>
 
-</section>
+</section> --> 
