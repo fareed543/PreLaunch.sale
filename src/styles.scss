@@ -139,10 +139,7 @@ nav img{
     .text-box h1{
         font-size: 20px;
     }
-    .nav-links ul li{
-        // display: inline-block;
-        float: right;
-    }
+    
     // .nav-links{
     //    position: fixed;
     //     // background: #f44336;
@@ -155,14 +152,12 @@ nav img{
     //     transition: 1s;
     // }
  
-    .nav-links ul{
-        padding:10px;
-    }
+    
     nav img {
-        width:200px;
+        width:150px;
     }
     nav{
-        width: 750px;
+        width: 700px;
         position: fixed;
     }
 }
@@ -212,20 +207,25 @@ h3{
 @media(max-width:750px){
     .row{
         flex-direction: column;
-
+    
     }
     .facilities{
-        width:500px;
+        width:700px;
         margin:10px;
-        text-align: center;
+        // text-align: center;
         padding-top: 10px;
         
     }
-    .facilities-col img{
-        // width:250px;
+    .facilities-col{
+        width:450px;
+        margin-left: 150px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        
+    }
+    .facilities p{
         text-align: left;
+        
     }
 }
 
@@ -347,6 +347,18 @@ h3{
         margin-left: 0;
         margin-right: 15px;
     }
+    
+.cta {
+    margin-left: 100px;
+    width:600px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../src/assets/images/lissete-laverde-_qp5lbyVQtE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 0;
+
+}
 }
 
 
@@ -1060,7 +1072,7 @@ h3{
 }
 @media(max-width:750px){
     .partner{
-        width:350px;
+        width:650px;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -1069,8 +1081,8 @@ h3{
     
     #wp-footer{
         // display: block;
-       min-width: 800px;
-        height: 520px;
+       width: 650px;
+        height: 700px;
         margin-bottom: 15px;
     }
     .elementor-widget-container p{
@@ -1095,7 +1107,7 @@ h3{
    
     #cpr{
         
-        width:400px;
+        width:650px;
         font-size: 12px;
         font-weight: 200;
         // padding: 15px;
@@ -1134,28 +1146,35 @@ h3{
     
     float: left;
     margin-top: 10px;
-    width:300px;
+    width:400px;
+    display: block;
+    
     
 }
 .luca-icon li{
     color: #c2c9de;
-    margin-left: 5px;
+    // margin-left: 0px;
 }
 .luca-fea li{
     text-decoration: none;
     color: #c2c9de;
-    margin-left: 5px;
+    // margin-left: 2px;
 }
 .luca-exp li{
-    margin-left: 5px;
+    // margin-left: 2px;
     text-decoration: none;
     color: #c2c9de;
+    display: block;
 }
 .header{
     height: 50vh;
-    width:750px;
+    width:720px;
     margin-top: 58px;
 }
+.dis-foot{
+    display:block;    
+}
+
 
 
 }
@@ -1238,7 +1257,7 @@ margin-right: 35px;
 .third-d p{
     margin-left: 40px;
 }
-@media(max-width:800px){
+@media(max-width:750px){
     .listing-cls{
 
         border: 1px solid black;
@@ -1250,14 +1269,14 @@ margin-right: 35px;
     }
     .sub-header {
         height: 25vh;
-        width:798px;
+        width:700px;
             background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('../src/assets/images/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg');
         background-position: center;
         background-size: cover;
         text-align: center;
         color: white;
         padding:15px;
-        margin-top: 57.40px;
+        margin-top: 57.80px;
         left: 0;
     
     
