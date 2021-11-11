@@ -157,7 +157,7 @@ nav img{
         width:150px;
     }
     nav{
-        width: 700px;
+        width: 650px;
         position: fixed;
     }
 }
@@ -210,15 +210,16 @@ h3{
     
     }
     .facilities{
-        width:700px;
+        width:600px;
         margin:10px;
         // text-align: center;
         padding-top: 10px;
         
     }
     .facilities-col{
-        width:450px;
-        margin-left: 150px;
+        width:300px;
+        margin-left:auto;
+        margin-right:auto;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         
@@ -226,6 +227,41 @@ h3{
     .facilities p{
         text-align: left;
         
+    }
+    .testimonials{
+        width: 600px;
+        padding-top: 15px;
+         text-align: center;
+        //  margin-left: 100px;
+    }
+    .testimonials-col{
+        width: 250px;
+        margin-left: auto;
+        text-align: left;
+        background:lightgray;
+        // padding:25px;
+        cursor: pointer;
+        
+    }
+    .testimonials-col h3{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .testimonials-col img{
+        height: 20px;
+        margin-left: 5px;
+        margin-right: 15px;
+        border-radius: 50%;
+    }
+    .testimonials-col h3{
+        text-align: left;
+        margin-top: 15px;
+    }
+    .row{
+        margin-top: 10px;
+    
+        flex-direction: column;
+    
     }
 }
 
@@ -343,10 +379,10 @@ h3{
     margin-top: 15px;
 }
 @media(max-width:750px){
-    .testimonials-col img{
-        margin-left: 0;
-        margin-right: 15px;
-    }
+    // .testimonials-col img{
+    //     margin-left: 0;
+    //     margin-right: 15px;
+    // }
     
 .cta {
     margin-left: 100px;
@@ -1072,7 +1108,7 @@ h3{
 }
 @media(max-width:750px){
     .partner{
-        width:650px;
+        width:600px;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -1081,8 +1117,8 @@ h3{
     
     #wp-footer{
         // display: block;
-       width: 650px;
-        height: 700px;
+       width: 600px;
+        height: 650px;
         margin-bottom: 15px;
     }
     .elementor-widget-container p{
@@ -1111,8 +1147,8 @@ h3{
         font-size: 12px;
         font-weight: 200;
         // padding: 15px;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         margin-left: 20px;
     }
     
@@ -1153,26 +1189,27 @@ h3{
 }
 .luca-icon li{
     color: #c2c9de;
-    // margin-left: 0px;
+    margin-left: 2px;
 }
 .luca-fea li{
     text-decoration: none;
     color: #c2c9de;
-    // margin-left: 2px;
+    margin-left: 2px;
 }
 .luca-exp li{
-    // margin-left: 2px;
+    margin-left: 2px;
     text-decoration: none;
     color: #c2c9de;
-    display: block;
+    
 }
 .header{
     height: 50vh;
-    width:720px;
+    width:650px;
     margin-top: 58px;
 }
 .dis-foot{
-    display:block;    
+    display:inline-block;  
+    justify-content: space-around;
 }
 
 
