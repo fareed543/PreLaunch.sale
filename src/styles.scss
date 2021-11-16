@@ -2,14 +2,13 @@
 * {
     margin:0;
     padding:0;
-
     font-family: 'Roboto', sans-serif;
 
 }
 .header{
     height: 100vh;
-    max-width: 100%;
-    margin-top: 67.40px;
+    width: 100%;
+    margin-top: 71px;
     background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url('../src/assets/images/john-fornander-Id7u0EkTjBE-unsplash.jpg'); 
     background-position: center;
     background-size: cover;
@@ -48,40 +47,37 @@
 }
 nav{
     display: flex;
-    padding:15px;
+    // padding:10px;
     justify-content: space-between;
     align-items: center;
     background:linear-gradient(rgba(20, 19, 19, ),rgba(14, 13, 13, 1));
     position: fixed;
     width:100%;
+    clear: both;
     top:0;
-
     left: 0;
-    height: 37px;
-    
-    
 }
 nav img{
-    width:250px;
-    margin-left: 45px;
+    width:175px;
+    // margin-left: 45px;
     
 }
 .nav-links{
-    flex:1;
+    // flex:1;
     text-align: right;
-    margin-right: 45px;
 }
 .nav-links ul li{
     list-style-type: none;
-    display: inline-block;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    // position: relative;
+    
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+    
 }
 .nav-links ul li a{
     text-decoration: none;
     color: white;
     font-size: 15px;
+    // margin-right: 15px;
 }
 .nav-links ul li::after {
     content: '';
@@ -96,7 +92,7 @@ nav img{
     width:100%;
 }
 .text-box{
-    width: 90%;
+    width: 95%;
     color: white;
     padding-top: 150px;
     // top:50%;
@@ -158,19 +154,14 @@ nav img{
         width:75px;
     }
     nav{
-        max-width: 550px;
-        // position: fixed;
+        // max-width: 350px;
+        position: fixed;
     // margin-top: 0px;
     }
     
 }
 
-// .course{
-// width: 80%;
-// margin: auto;
-// text-align: center;
-// padding-top: 100px;
-// }
+
 h1{
     font-size: 36px;
     font-weight: 600;
@@ -320,7 +311,7 @@ h3{
 }
 
 .facilities{
-    width:95%;
+    width:80%;
     margin:20px;
     text-align: center;
     padding-top: 10px;
@@ -329,7 +320,8 @@ h3{
 .facilities-col{
     
     flex-basis: 32%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+    margin-left:7%;
     background:white;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
     box-sizing: border-box;
@@ -366,7 +358,7 @@ h3{
 }
 .testimonials-col{
     flex-basis: 44%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     text-align: left;
     background:lightgray;
     padding:25px;
@@ -439,8 +431,8 @@ h3{
     background-size: cover;
     text-align: center;
     color: white;
-    padding:10px;
-    margin-top: 57.40px;
+    // padding:10px;
+    margin-top: 71.45px;
     left: 0;
 
 
@@ -451,7 +443,7 @@ h3{
 }
 
 .about-us {
-    width: 80%;
+    width: 100%;
     margin:auto;
     padding-top: 80px;
     padding-bottom: 50px;
@@ -539,32 +531,34 @@ h3{
     margin: 10px 0;
 }
 
-@media(max-width:800px) {
+@media(max-width:750px) {
     .sub-header h1{
         font-size: 24px;
     }
 }
 
 .location {
-    width: 80%;
+    width: 90%;
     padding: 80px 0;
     margin: auto;
 }
 
 .location iframe {
-    width: 100%;
+    width: 80%;
+    // margin-left: 15px;
 }
 
 .contact-us{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
 .contact-col {
-    flex-basis: 48%;
-    margin-bottom: 30px;
+    flex-basis: 44%;
+    // margin-bottom: 30px;
 }
 .contact-col  div {
+    width: 80%;
     display: flex;
     align-items: center;
     margin-bottom: 40px;
@@ -584,11 +578,12 @@ h3{
     font-weight: 400;
     margin-bottom: 5px;
     color: #555;
+    cursor: pointer;
 
 }
 
 .contact-col input, .contact-col textarea {
-    width: 100%;
+    width: 80%;
     padding: 15px;
     margin-bottom: 17px;
     outline: none;
@@ -993,41 +988,59 @@ h3{
 
 .footer-sec2{
     
-    float: right;
-    margin-top: 10px;
-    width:55%;
+    width:70%;
     
 }
 .dis-foot{
     display:flex;    
+    justify-content: space-around;
 }
+
 
 
 .elementor-heading-title  {
     color: white;
-    margin-left:45px;
+    margin-left:30px;
     margin-top: 50px;
 }
-.luca-exp li{
+.luca-exp {
     margin-left: 15px;
     text-decoration: none;
     color: #c2c9de;
-    cursor: pointer;
+    
 }
-.luca-fea li{
-    text-decoration: none;
-    color: #c2c9de;
+.luca-exp span{
+    display: block;
+    margin-top: 20px;
     margin-left: 40px;
     cursor: pointer;
 }
-.luca-icon li a{
+.luca-fea {
     text-decoration: none;
     color: #c2c9de;
-    // margin-left: 40px;
+    margin-left: 20px;
+    // cursor: pointer;
+    
+}
+.luca-fea span{
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
 
 }
-.luca-icon li{
+.luca-icon {
     color: #c2c9de;
+    // margin-left: 40px;
+    
+}
+.luca-icon a{
+    text-decoration: none;
+    color: #c2c9de;
+}
+.luca-icon span{
+    display: block;
+    margin-top: 20px;
     margin-left: 40px;
     cursor: pointer;
 }
@@ -1037,15 +1050,18 @@ h3{
     background:#3a435e;
     font-size: 16px;
     width: 100%;
-    height: 500px;
-    margin-top: 25px;
+    height: 350px;
+    margin-top: 15px;
     font-family: 'roboto', 'sans-serif';
+    display: flex;
+    justify-content: space-between;
+    clear: both;
     
 }
 
 .footer-sec1{
-    float:left;
-    width: 35%;
+
+    width: 30%;
 
     margin-top: 50px;
     
@@ -1069,12 +1085,15 @@ h3{
     margin-left: 102px;
     background:#282f44;
     width: 300px;
-    height:100px;
+    height:80px;
     margin-bottom: 5px;
     box-sizing: border-box;
-    margin-top: 25px;
+    margin-top: 20px;
+    // display: flex;
     
 }
+
+
 .elementor-icon-box-content h4{
     margin-left: 60px;
     padding-top: 10px;
@@ -1092,21 +1111,22 @@ h3{
 
 .partner{
     
-    width: 95%;
+    width: 90%;
     height:200px;
     
-    margin-top: 65px;
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
 
 }
 #cpr{
-    width: 100%;
+    clear: both;
+    width: 90%;
     font-size: 16px;
     font-weight: 400;
     padding: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    // margin-top: 15px;
+    // margin-bottom: 15px;
     margin-left: 100px;
 }
 
@@ -1126,9 +1146,9 @@ h3{
     }
     
     #wp-footer{
-        // display: block;
+        display: block;
        width: 400px;
-        min-height: 900px;
+        min-height: 950px;
         margin-bottom: 15px;
     }
     .elementor-widget-container p{
@@ -1318,17 +1338,20 @@ margin-right: 35px;
     }
     .sub-header {
         height: 25vh;
-        width:700px;
+        // width:500px;
             background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('../src/assets/images/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg');
         background-position: center;
         background-size: cover;
         text-align: center;
         color: white;
         padding:15px;
-        margin-top: 56.80px;
+        margin-top: 69px;
         left: 0;
     
     
+    }
+    .sub-header h1{
+        font-size: 16px;
     }
     .third-d p{
         margin-left: 20px;
@@ -1402,33 +1425,3 @@ margin-right: 35px;
 
 
 
-
-// new footer//
-
-
-.b-example-divider {
-    height: 1rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-  }
-  
-  .bi {
-    vertical-align: -.125em;
-    fill: currentColor;
-  }
-  
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-
-  @media (max-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-}
