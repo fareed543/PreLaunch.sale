@@ -1199,6 +1199,7 @@ h3{
 .listing{
     display: flex;
     flex-basis: 17%;
+    flex-wrap: wrap;
     // flex-direction: row;
     
 
@@ -1215,9 +1216,10 @@ h3{
 .lis-ban{
     background: #bdbab7;
     width: 100%;
-    height: 40pxp;
+    height: 40px;
     margin-top:-4px;
     display: flex;
+    
     justify-content: space-around;
     
 }
@@ -1257,85 +1259,54 @@ margin-right: 35px;
 .third-d p{
     margin-left: 40px;
 }
-@media(max-width:850px){
-    .listing-cls{
+@media screen and (max-width:850px) {
+    .sub-header{
+        margin-top: 90px;
 
-        border: 1px solid black;
-        width: 750px;
-        height: 170px;
-        margin-left: 100px;
-        margin-right: 50px;
-        margin-top: 15px;
-    }
-    .sub-header {
-        height: 25vh;
-        // width:500px;
-            background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('../src/assets/images/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg');
-        background-position: center;
-        background-size: cover;
-        text-align: center;
-        color: white;
-        padding:15px;
-        margin-top: 69px;
-        left: 0;
-    
-    
     }
     .sub-header h1{
+        padding-top: 50px;
+    }
+    #apart-list h1{
+        // text-align: center;
+        font-size: 18px;
+    }
+    #apart-list p{
         font-size: 16px;
     }
-    .third-d p{
-        margin-left: 20px;
+    .listing{
+        flex-direction:column ;
+        
     }
-    .third-d {
-        margin-top:15px;
+    .lis-ban{
+        flex-direction: row;
+        
+        height: 57px;
+    }
+    .listing img{
+        width: 100%;
+        margin: 0;
+    }
+    .listing-cls{
+        height: 500px;
+    }
+    .view-de{
+        margin-bottom: 10px;
+        
+    }
+    .listings-det1 h4{
+        font-size: 18px;
     }
     .listing2{
-        margin-top: 22px;
-        margin-right: 25px;
-       
-    }.view-de{
-        margin-left: 25px;
-        margin-top: 10px;
-        width: 100px;
-        padding: 10px;
-        color:white;
-        background: blue;
-        border-radius: 5px;
-        border: 1px solid blue;
+        margin-top: 5px;
     }
-    .listings-det1{
-        margin-right: 25px;
-        }
-        .lis-ban{
-            background: #bdbab7;
-            
-            width: 100%;
-            height: 40px;
-            margin-left: 0;
-            margin-top:-4px;
-            
-        }
-        .listing img{
-            height: 130px;
-            width: 200px;
-            margin-right: 25px;
-            
-        }
-        .facilities{
-            padding-top: 10px;
-            
-        }
-        // .facilities p{ 
-        //     line-height: 20px;
-            
-        // }
-        // .facilities h1{
-        
-        //   font-size: 18px;
-        
-        // }
-
+    .third-d{
+        margin-top: 5px;
+    }
+    .third-d p{
+        margin-left: 0;
+    }
+    
 }
 
 
